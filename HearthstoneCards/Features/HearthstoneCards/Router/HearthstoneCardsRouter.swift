@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 protocol HearthstoneCardsRouterLogic {
-    func showDetails()
+    func showCardDetail(card: CardsResponse)
 }
 
 final class HearthstoneCardsRouter {
@@ -22,7 +22,8 @@ final class HearthstoneCardsRouter {
 }
 
 extension HearthstoneCardsRouter: HearthstoneCardsRouterLogic {
-    func showDetails() {
-        
+    func showCardDetail(card: CardsResponse) {
+        let vc = UIViewController()
+        self.source?.present(vc, animated: true)
     }
 }

@@ -24,7 +24,6 @@ class HearthstoneCardsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.white
         interactor?.loadCards()
     }
 }
@@ -42,7 +41,9 @@ extension HearthstoneCardsViewController: HearthstoneCardsViewControllerInput {
     }
     
     func showCards(cards: [CardsResponse]) {
-        let cardsView = HearthstoneCardsView(cards: cards)
+        let cardsView = HearthstoneCardsView(cards: cards,
+                                             delegate: self)
+        cardsView.backgroundColor = UIColor(rgb: 0xE5E5E5)
         self.view = cardsView
     }
 }
@@ -50,5 +51,11 @@ extension HearthstoneCardsViewController: HearthstoneCardsViewControllerInput {
 extension HearthstoneCardsViewController: HearthstoneCardsErrorViewDelegate {
     func tryAgain() {
         self.interactor?.loadCards()
+    }
+}
+
+extension HearthstoneCardsViewController: HearthstoneCardsViewDelegate {
+    func didSelectCard(card: CardsResponse) {
+        self.router?.showCardDetail(card: card)
     }
 }
