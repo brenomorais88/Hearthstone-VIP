@@ -7,29 +7,29 @@
 
 import Foundation
 
-typealias HearthstoneCardsInteractorInput = HearthstoneCardsInteractorOutput
-
-protocol HearthstoneCardsInteractorOutput: AnyObject {
-    func showCards()
-    func showLoaging()
-    func showError()
+protocol HearthstoneCardsInteractorProtocol: AnyObject {
+    func loadCards()
 }
 
 class HearthstoneCardsInteractor {
-    var presenter: HearthstoneCardsPresenter?
+    var presenter: HearthstoneCardsPresenterProtocol?
     var worker: HearthstoneCardsWorker?
 }
 
-extension HearthstoneCardsInteractor: HearthstoneCardsInteractorInput {
-    func showCards() {
-        
-    }
-    
-    func showLoaging() {
-        
-    }
-    
-    func showError() {
-        
+extension HearthstoneCardsInteractor: HearthstoneCardsInteractorProtocol {
+    func loadCards() {
+        self.presenter?.showLoaging()
+        worker?.loadCards(callback: { success, response in
+            if success {
+                guard let cards = response else {
+                    self.presenter?.showError()
+                    return
+                }
+                
+                self.presenter?.showCards(cards: cards)
+            } else {
+                self.presenter?.showError()
+            }
+        })
     }
 }

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0AACB488-E687-469B-8043-2BBD5B1C1937"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "181C994F-AFD4-4825-855B-92E9D09A0F7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearthstoneCards/Features/HearthstoneCards/Service/HearthstoneCardsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "loadCards(params:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "181C994F-AFD4-4825-855B-92E9D09A0F7F - a9f634fc263c0964"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in HearthstoneCards.HearthstoneCardsService.loadCards(params: HearthstoneCards.CardsParams, callback: (Swift.Bool, Swift.Optional&lt;HearthstoneCards.CardsResponse&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "HearthstoneCards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brenomorais/Documents/projetos/HearthstoneCards/HearthstoneCards/Features/HearthstoneCards/Service/HearthstoneCardsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1138">
+               </Location>
+               <Location
+                  uuid = "181C994F-AFD4-4825-855B-92E9D09A0F7F - c76f23dac7bc7a72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in HearthstoneCards.HearthstoneCardsService.loadCards(params: HearthstoneCards.CardsParams, callback: (Swift.Bool, Swift.Optional&lt;Swift.Array&lt;HearthstoneCards.CardsResponse&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "HearthstoneCards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brenomorais/Documents/projetos/HearthstoneCards/HearthstoneCards/Features/HearthstoneCards/Service/HearthstoneCardsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "949">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8D2A530-1B74-4E8A-B9F0-33D522A89819"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HearthstoneCards/Features/HearthstoneCards/Service/HearthstoneCardsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "loadCards(params:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

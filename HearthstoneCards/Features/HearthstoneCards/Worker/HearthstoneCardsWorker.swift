@@ -8,12 +8,11 @@
 import Foundation
 
 protocol HearthstoneCardsWorkerLogic {
-    func loadCards()
+    func loadCards(callback: @escaping (Bool, [CardsResponse]?) -> ())
 }
 
 final class HearthstoneCardsWorker {
     private let service: HearthstoneCardsServiceProtocol
-//    private var bag = Set<AnyCancellable>()
 
     init(service: HearthstoneCardsServiceProtocol) {
         self.service = service
@@ -26,7 +25,8 @@ final class HearthstoneCardsWorker {
 }
 
 extension HearthstoneCardsWorker: HearthstoneCardsWorkerLogic {
-    func loadCards() {
-        
+    func loadCards(callback: @escaping (Bool, [CardsResponse]?) -> ()) {
+        let params = CardsParams(page: 0, delay: 0)
+        self.service.loadCards(params: params, callback: callback)
     }
 }
