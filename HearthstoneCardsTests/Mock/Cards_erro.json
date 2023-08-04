@@ -1,0 +1,55 @@
+[
+   {
+      "cardId":"EX1_319",
+      "dbfId":1090,
+      "name":"Diabrete das Chamas",
+      "cardSet": 5,
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":1,
+      "attack":3,
+      "health":2,
+      "text":"<b>Grito de Guerra:</b> Cause 3 de dano ao seu herói.",
+      "flavor":"Diabretes curtem ficar no fogo. Eles só curtem.",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3653dbb02e0d234b20a6523d6ac4476446999c333847342aa5de2729371a8e03.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_243",
+      "dbfId":618,
+      "name":"Redemoinho de Poeira",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":1,
+      "attack":3,
+      "health":1,
+      "text":"<b>Fúria dos Ventos</b>. <b>Sobrecarga:</b> (2)",
+      "flavor":"O Cerro Oeste é cheio de redemoinhos de poeira. E urubus. E golens enlouquecidos. E piratas. Por que ainda tem gente morando lá?",
+      "artist":"Raymond Swanland",
+      "collectible":true,
+      "race":"Elemental",
+      "playerClass":"Shaman",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/279602a42a6cb05a8dbb59571be6a753baa173d2b2c159e13961d12ea7f94dae.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Sobrecarga"
+         },
+         {
+            "name":"Fúria dos Ventos"
+         }
+      ]
+   }
+]

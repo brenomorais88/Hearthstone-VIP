@@ -8,29 +8,60 @@
 import XCTest
 @testable import HearthstoneCards
 
-final class HearthstoneCardsTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+class HearthstoneCardsServiceMock: HearthstoneCardsServiceProtocol {
+    var jsonMock = ""
+    
+    func loadCards(callback: @escaping (Bool, [CardsResponse]?) -> ()) {
+        if let responseMock = JSONHandler().readJson(type: [CardsResponse].self, fileName: self.jsonMock) {
+            if responseMock.count > 0 {
+                callback(true, responseMock)
+            } else {
+                callback(false, nil)
+            }
+            
+        } else {
+            callback(false, nil)
         }
     }
+}
 
+class HearthstoneCardsTests: XCTestCase {
+    let service = HearthstoneCardsServiceMock()
+    let sceneFactory = DefaultSceneFactory()
+    let vc = HearthstoneCardsViewController()
+    let interactor = HearthstoneCardsInteractor()
+    let presenter = HearthstoneCardsPresenter()
+    var worker: HearthstoneCardsWorker?
+    var router: HearthstoneCardsRouter?
+    
+    override func setUp() {
+        worker = HearthstoneCardsWorker(service: service)
+        router = HearthstoneCardsRouter(sceneFactory: sceneFactory)
+        
+        router?.source = vc
+        presenter.viewController = vc
+        interactor.presenter = presenter
+        interactor.worker = worker
+        vc.interactor = interactor
+        vc.router = router
+    }
+    
+    func testClassInitializers() {
+        XCTAssertNotNil(self.worker)
+        XCTAssertNotNil(self.router)
+    }
+    
+    func testErrorCase() {
+        self.service.jsonMock = "Cards_erro"
+        let errorView = self.vc.view as? HearthstoneCardsErrorView
+        XCTAssertNotNil(errorView)
+    }
+    
+    func testNormalCase() {
+        self.service.jsonMock = "Cards"
+        let view = self.vc.view as? HearthstoneCardsView
+        self.vc.tryAgain()
+        XCTAssertNotNil(view)
+        XCTAssertEqual(view?.cards.count, 27)
+    }
 }

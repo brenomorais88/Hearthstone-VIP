@@ -1,0 +1,650 @@
+[
+   {
+      "cardId":"EX1_319",
+      "dbfId":1090,
+      "name":"Diabrete das Chamas",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":1,
+      "attack":3,
+      "health":2,
+      "text":"<b>Grito de Guerra:</b> Cause 3 de dano ao seu herói.",
+      "flavor":"Diabretes curtem ficar no fogo. Eles só curtem.",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3653dbb02e0d234b20a6523d6ac4476446999c333847342aa5de2729371a8e03.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_243",
+      "dbfId":618,
+      "name":"Redemoinho de Poeira",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":1,
+      "attack":3,
+      "health":1,
+      "text":"<b>Fúria dos Ventos</b>. <b>Sobrecarga:</b> (2)",
+      "flavor":"O Cerro Oeste é cheio de redemoinhos de poeira. E urubus. E golens enlouquecidos. E piratas. Por que ainda tem gente morando lá?",
+      "artist":"Raymond Swanland",
+      "collectible":true,
+      "race":"Elemental",
+      "playerClass":"Shaman",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/279602a42a6cb05a8dbb59571be6a753baa173d2b2c159e13961d12ea7f94dae.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Sobrecarga"
+         },
+         {
+            "name":"Fúria dos Ventos"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_082",
+      "dbfId":762,
+      "name":"Bombardeiro Louco",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Alliance",
+      "rarity":"Common",
+      "cost":2,
+      "attack":3,
+      "health":2,
+      "text":"<b>Grito de Guerra:</b> Cause 3 de dano divididos aleatoriamente entre todos os outros personagens.",
+      "flavor":"Ele não é tão louco assim. Só não toma tanto cuidado com os explosivos quanto deveria.",
+      "artist":"Mike Sass",
+      "collectible":true,
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f273c49c887cbb5b3a5f71fa3826db0cbccce0c003a8e30ff10a5d61266f090d.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"NEW1_023",
+      "dbfId":609,
+      "name":"Dragoleta",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":2,
+      "attack":3,
+      "health":2,
+      "text":"Não pode ser alvo de feitiços nem de Poderes Heroicos.",
+      "flavor":"Adorável. Imune a magia. Não faz xixi no carpete. A mascote perfeita!",
+      "artist":"Samwise",
+      "collectible":true,
+      "race":"Dragon",
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b4941be78d48fd64143687d965076d505f26bfed13938656516b7641f845e1b.png",
+      "locale":"ptBR"
+   },
+   {
+      "cardId":"NEW1_019",
+      "dbfId":1073,
+      "name":"Malabarista de Facas",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":2,
+      "attack":3,
+      "health":2,
+      "text":"[x]Depois de evocar um\nlacaio, cause 1 de dano a\num inimigo aleatório.",
+      "flavor":"Malabaristas de Facas ambiciosos às vezes são promovidos a Malabaristas de Bombas. Mas eles nunca sobrevivem o suficiente para colocar isso num cartão de visitas.",
+      "artist":"Matt Cavotta",
+      "collectible":true,
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b62fb87e0ca7ddb286f967a03df41373049b4d9071f2763f4cb16ce223393b4e.png",
+      "imgGold":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7803c68a69ac7ea57290389481e0dc95c60bf942058c3d78dba11067a7793f2c.png",
+      "locale":"ptBR"
+   },
+   {
+      "cardId":"EX1_049",
+      "dbfId":415,
+      "name":"Mestre Cervejeiro Jovem",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Alliance",
+      "rarity":"Common",
+      "cost":2,
+      "attack":3,
+      "health":2,
+      "text":"<b>Grito de Guerra:</b> Devolva um lacaio aliado do campo de batalha à sua mão.",
+      "flavor":"Sua alegria juvenil nem sempre equivale a cervejas boas. Não beba a Stout Mogu!",
+      "artist":"Wei Wang",
+      "collectible":true,
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f51958e8554c2c3c408b3447e8927c0fde56cb6a2aae37a11c12c4de58acd8f.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"NEW1_020",
+      "dbfId":1014,
+      "name":"Piromante Selvagem",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":2,
+      "attack":3,
+      "health":2,
+      "text":"Depois de lançar um feitiço, cause 1 de dano a TODOS os lacaios.",
+      "flavor":"BUM! HAHAHA, BUUUUM!!! MAU É BOM!!! ANARQUIAAAAA!",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "race":"Undead",
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d11d9e34a12e83f8577d66158b352002b4c74a7edab6200e7ad411942c2902e.png",
+      "locale":"ptBR"
+   },
+   {
+      "cardId":"EX1_362",
+      "dbfId":1022,
+      "name":"Protetor Argênteo",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":2,
+      "attack":3,
+      "health":2,
+      "text":"<b>Grito de Guerra:</b> Conceda <b>Escudo Divino</b> a um lacaio aliado.",
+      "flavor":"\"Não estou dizendo que você pode desviar de bolas de fogo. Mas com este escudo, você não vai precisar.\"",
+      "artist":"Doug Alexander",
+      "collectible":true,
+      "playerClass":"Paladin",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d99fe388428fed6a078238405cde66412f1dcc19925ef8ab2a389e830656e2b9.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Escudo Divino"
+         },
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_134",
+      "dbfId":1117,
+      "name":"Agente da AVIN",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"<b>Combo:</b> Cause 2 de dano.",
+      "flavor":"Os agentes da AVIN são responsáveis pelas atividades secretas de Ventobravo. Seus deveres incluem espionagem, assassinato e planejar festas-surpresa para a família real.",
+      "artist":"Chris Moeller",
+      "collectible":true,
+      "playerClass":"Rogue",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ab87c6a212fba7cb4a8a02071cd181f48431646554b5df390c7a3fade7d3b047.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Combo"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_536",
+      "dbfId":1662,
+      "name":"Arco Hastáguia",
+      "cardSet":"Classic",
+      "type":"Weapon",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":3,
+      "durability":2,
+      "text":"Sempre que um\n<b>Segredo</b> aliado for revelado, receba\n+1 de Durabilidade.",
+      "flavor":"Primeira lição: o lado pontudo vai no outro cara.",
+      "artist":"Cyril Van Der Haegen",
+      "collectible":true,
+      "playerClass":"Hunter",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/52d46df5504dce34a12f2cbfec8e5e0545427bacd3db8d5ead25d1c1444356cd.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Segredo"
+         }
+      ]
+   },
+   {
+      "cardId":"NEW1_027",
+      "dbfId":680,
+      "name":"Capitão dos Mares do Sul",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"Seus outros Piratas têm +1/+1.",
+      "flavor":"Quando ele já tiver pilhado o suficiente, ele vai mandar fazer um chapéu de capitão enorme. Rola uma certa invejinha de chapéus aí.",
+      "artist":"Ken Steacy",
+      "collectible":true,
+      "race":"Pirate",
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e27536751f22494851a02db920c68272ddf82ef07c4af7bd2bed055c3e3fa10.png",
+      "imgGold":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e254af07319481b67215a582359f204f70b1002c49b0a17875d7f55ab34870b.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Aura"
+         }
+      ]
+   },
+   {
+      "cardId":"tt_004",
+      "dbfId":397,
+      "name":"Carniçal Devora-carne",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"Sempre que um lacaio morrer, receba +1 de Ataque.",
+      "flavor":"Devora-carne é um nome injusto. Na verdade não tem muito mais coisas para ele comer.",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "race":"Undead",
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81d4ba947c250a22889c128212d067c901b4580a31319d6cc13680a5037ed150.png",
+      "locale":"ptBR"
+   },
+   {
+      "cardId":"EX1_590",
+      "dbfId":755,
+      "name":"Cavaleiro Sangrento",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Epic",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"<b>Grito de Guerra:</b> Todos os lacaios perdem <b>Escudo Divino</b>. Receba +3/+3 para cada Escudo perdido.",
+      "flavor":"Os Cavaleiros Sangrentos recebem seus poderes sagrados da Nascente do Sol, que NÃO é um lugar para tomar banho.",
+      "artist":"Trent Kaniuga",
+      "collectible":true,
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16a3652d43ed9c56a763d20bd3df1cee550372c4b3d34bf861a1d48330dcafe7.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Escudo Divino"
+         },
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"CS2_117",
+      "dbfId":1651,
+      "name":"Clarividente Telúrico",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"<b>Grito de Guerra:</b> Restaure #3 de Vida.",
+      "flavor":"Ele vê tudo claramente, e nem precisa de óculos!",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d93b36cb8bccca9607d0ea5caa614dc57254a46d77e12cbc4e69a471c537320b.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_020",
+      "dbfId":642,
+      "name":"Cruzada Escarlate",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Alliance",
+      "rarity":"Common",
+      "cost":3,
+      "attack":3,
+      "health":1,
+      "text":"<b>Escudo Divino</b>",
+      "flavor":"Nunca lave suas roupas brancas com um Cruzado Escarlate.",
+      "artist":"Gonzalo Ordonez",
+      "collectible":true,
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7db9c538c727246389805aedaed5d8781032ea2e15e65788c9a15e7ce4310a43.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Escudo Divino"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_258",
+      "dbfId":774,
+      "name":"Elemental Desvinculado",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":3,
+      "attack":3,
+      "health":4,
+      "text":"Depois que você jogar um card com <b>Sobrecarga</b>, receba +1/+1.",
+      "flavor":"Diferente dos elementais vinculados, os Desvinculados sempre aproveitam uma noitada na cidade.",
+      "artist":"Matt Gaser",
+      "collectible":true,
+      "race":"Elemental",
+      "playerClass":"Shaman",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2822e0b22938def007044031f970755f9d494ffbe0faf6ba272b58c7e135de10.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Sobrecarga"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_301",
+      "dbfId":517,
+      "name":"Guarda Vil",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":3,
+      "health":5,
+      "text":"<b>Provocar</b>\n<b> Grito de Guerra:</b> Destrua um de seus Cristais de Mana.",
+      "flavor":"Sim, ele lutará por você. MAS ELE NÃO VAI GOSTAR NADA DISSO.",
+      "artist":"John Polidora",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1e04e2ec5c96dc1942e2a1443c60aadff1694524a2c6983c8dcad305d9dd8b30.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Provocar"
+         },
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_507",
+      "dbfId":1063,
+      "name":"Líder Guerreiro Murloc",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Epic",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"Seus outros Murlocs têm +2 de Ataque.",
+      "flavor":"Os murlocs não enjoam de ficar fazendo sempre o mesmo som? Não! Mrglglrglglglglglglgl!",
+      "artist":"Tim McBurnie",
+      "collectible":true,
+      "race":"Murloc",
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0491007bc435ba4edf26432c9c409aaa9379e45f7577131f298fd750ac84a256.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Aura"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_083",
+      "dbfId":570,
+      "name":"Mestre-faz-tudo Superchispa",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Alliance",
+      "rarity":"Legendary",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"[x]<b>Grito de Guerra:</b> Transforme\noutro lacaio aleatório em\num Demossauro 5/5 ou\n em um Esquilo 1/1.",
+      "flavor":"O Mestre-faz-tudo Superchispa quase perdeu sua licença de Mestre-faz-tudo depois da Grande Debandada de Esquilos de Altaforja do ano 9.",
+      "artist":"Tom Baxa",
+      "collectible":true,
+      "elite":true,
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39b18f6fd12778edb2c890ba34ea08aead417e9e7abc2ed7202e9470b6a31cb7.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_382",
+      "dbfId":1167,
+      "name":"Pacificador Aldor",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"<b>Grito de Guerra:</b> Mude o Ataque de um lacaio inimigo para 1.",
+      "flavor":"Os Aldor odeiam duas coisas: os Áugures e smooth jazz.",
+      "artist":"Dany Orizio",
+      "collectible":true,
+      "playerClass":"Paladin",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a5ada0dcce9c92e474205bc6e161dee31d8f17384a98f941985ef20f6a9d37b2.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_304",
+      "dbfId":1221,
+      "name":"Terror do Caos",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":3,
+      "health":4,
+      "text":"[x]<b>Grito de Guerra:</b>\n Destrua os dois lacaios\nadjacentes a este e receba o\n Ataque e a Vida deles.",
+      "flavor":"Se você colocar isso no seu deck, você VAI perder a confiança dos seus outros lacaios.",
+      "artist":"Alex Alexandrov",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1647d98b8265278a6aa69b84794f98196b689aead8056c49c1e037387ef7cb49.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_412",
+      "dbfId":1155,
+      "name":"Worgen Enfurecido",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"Tem +1 de Ataque e <b>Fúria dos Ventos</b> enquanto estiver ferido.",
+      "flavor":"Se ele já está enfurecido agora, nem quero ver quando ele for nerfado.",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c2c78c759144ea39bc71c1648658cb994e1ab0d76cae0a16381ed636e314d80.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Fúria dos Ventos"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_608",
+      "dbfId":614,
+      "name":"Aprendiz de Feiticeiro",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":4,
+      "attack":3,
+      "health":2,
+      "text":"Seus feitiços custam (1) a menos.",
+      "flavor":"Aprendizes servem para obedecer. \"Conjure uns pãezinhos de mana para mim! E um café! Ou melhor, um café de mana!\"",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "playerClass":"Mage",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30dc7173db936c685c65cfac52f3ac7cd9e60affb2b84ee77e139df6cc76412e.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Aura"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_274",
+      "dbfId":1737,
+      "name":"Arcanista Etéreo",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":4,
+      "attack":3,
+      "health":3,
+      "text":"Se você controlar um <b>Segredo</b> no final do seu turno, receba +2/+2.",
+      "flavor":"Os etéreos se cobrem com panos para dar forma a seus seres incorpóreos. E também porque é macio e cheiroso.",
+      "artist":"Michael Komarck",
+      "collectible":true,
+      "playerClass":"Mage",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2f61d72e13b0925436ddee2d3abd876af897b5f4d2113a9254e5ea4ad87ca4d.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Segredo"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_398",
+      "dbfId":538,
+      "name":"Armeira de Arathi",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":4,
+      "attack":3,
+      "health":3,
+      "text":"<b>Grito de Guerra:</b> Equipe uma arma 2/2.",
+      "flavor":"50% de desconto nas armas de punho! É só hoje!",
+      "artist":"Samwise",
+      "collectible":true,
+      "playerClass":"Warrior",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f10342802ffb74360a0c826d7240e261c644bae68f3c5cc1450026fff1cd3464.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   },
+   {
+      "cardId":"NEW1_022",
+      "dbfId":878,
+      "name":"Corsário Terrível",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":4,
+      "attack":3,
+      "health":3,
+      "text":"<b>Provocar</b>\nCusta (1) a menos por Ataque da sua arma.",
+      "flavor":"\"Iaarrrr\" é uma palavra pirata que quer dizer \"Olá, milorde\".",
+      "artist":"Trent Kaniuga",
+      "collectible":true,
+      "race":"Pirate",
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0cdec32d0e15bc5cef3c8cc7107a98a3fb46c6df515a70cf04f825885b999ac7.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Provocar"
+         }
+      ]
+   },
+   {
+      "cardId":"EX1_093",
+      "dbfId":763,
+      "name":"Defensor de Argus",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Alliance",
+      "rarity":"Rare",
+      "cost":4,
+      "attack":3,
+      "health":3,
+      "text":"<b>Grito de Guerra:</b> Conceda +1/+1 e <b>Provocar</b> aos lacaios adjacentes.",
+      "flavor":"Ninguém iria imaginar que Argus precisa de tanta defesa. Mas precisa.",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "playerClass":"Neutral",
+      "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d0ab970436a62b3bba129d2e18ac2cf2f077362efc920e1d0e07016670a613b.png",
+      "locale":"ptBR",
+      "mechanics":[
+         {
+            "name":"Provocar"
+         },
+         {
+            "name":"Grito de Guerra"
+         }
+      ]
+   }
+]

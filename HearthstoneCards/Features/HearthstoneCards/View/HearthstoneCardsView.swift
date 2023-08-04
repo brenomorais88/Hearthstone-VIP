@@ -26,8 +26,8 @@ class HearthstoneCardsView: UIView {
         return view
     }()
     
-    private let cards: [CardsResponse]
     private let delegate: HearthstoneCardsViewDelegate
+    let cards: [CardsResponse]
     
     init(cards: [CardsResponse],
          delegate: HearthstoneCardsViewDelegate) {
