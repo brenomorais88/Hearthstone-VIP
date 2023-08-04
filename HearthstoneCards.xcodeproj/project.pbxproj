@@ -17,6 +17,19 @@
 		0F344EF82A7D31E60013665C /* HearthstoneCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344EF72A7D31E60013665C /* HearthstoneCardsTests.swift */; };
 		0F344F022A7D31E60013665C /* HearthstoneCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F012A7D31E60013665C /* HearthstoneCardsUITests.swift */; };
 		0F344F042A7D31E60013665C /* HearthstoneCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F032A7D31E60013665C /* HearthstoneCardsUITestsLaunchTests.swift */; };
+		0F344F192A7D32CD0013665C /* HearthstoneCardsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F182A7D32CD0013665C /* HearthstoneCardsConfigurator.swift */; };
+		0F344F1D2A7D330C0013665C /* HearthstoneCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F1C2A7D330C0013665C /* HearthstoneCardsInteractor.swift */; };
+		0F344F1F2A7D33150013665C /* HearthstoneCardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F1E2A7D33150013665C /* HearthstoneCardsModel.swift */; };
+		0F344F212A7D331C0013665C /* HearthstoneCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F202A7D331C0013665C /* HearthstoneCardsRouter.swift */; };
+		0F344F232A7D33230013665C /* HearthstoneCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F222A7D33230013665C /* HearthstoneCardsPresenter.swift */; };
+		0F344F252A7D33300013665C /* HearthstoneCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F242A7D33300013665C /* HearthstoneCardsView.swift */; };
+		0F344F272A7D33410013665C /* HearthstoneCardsLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F262A7D33410013665C /* HearthstoneCardsLoadingView.swift */; };
+		0F344F292A7D334B0013665C /* HearthstoneCardsErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F282A7D334B0013665C /* HearthstoneCardsErrorView.swift */; };
+		0F344F2B2A7D33660013665C /* HearthstoneCardsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F2A2A7D33660013665C /* HearthstoneCardsCell.swift */; };
+		0F344F2D2A7D337C0013665C /* HearthstoneCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F2C2A7D337C0013665C /* HearthstoneCardsViewController.swift */; };
+		0F344F2F2A7D385D0013665C /* HearthstoneCardsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F2E2A7D385D0013665C /* HearthstoneCardsWorker.swift */; };
+		0F344F322A7D38C50013665C /* HearthstoneCardsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F312A7D38C50013665C /* HearthstoneCardsService.swift */; };
+		0F344F352A7D3AF60013665C /* HearthstoneCardsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F344F342A7D3AF60013665C /* HearthstoneCardsFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,19 @@
 		0F344EFD2A7D31E60013665C /* HearthstoneCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthstoneCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F344F012A7D31E60013665C /* HearthstoneCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsUITests.swift; sourceTree = "<group>"; };
 		0F344F032A7D31E60013665C /* HearthstoneCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F344F182A7D32CD0013665C /* HearthstoneCardsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsConfigurator.swift; sourceTree = "<group>"; };
+		0F344F1C2A7D330C0013665C /* HearthstoneCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsInteractor.swift; sourceTree = "<group>"; };
+		0F344F1E2A7D33150013665C /* HearthstoneCardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsModel.swift; sourceTree = "<group>"; };
+		0F344F202A7D331C0013665C /* HearthstoneCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsRouter.swift; sourceTree = "<group>"; };
+		0F344F222A7D33230013665C /* HearthstoneCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsPresenter.swift; sourceTree = "<group>"; };
+		0F344F242A7D33300013665C /* HearthstoneCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsView.swift; sourceTree = "<group>"; };
+		0F344F262A7D33410013665C /* HearthstoneCardsLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsLoadingView.swift; sourceTree = "<group>"; };
+		0F344F282A7D334B0013665C /* HearthstoneCardsErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsErrorView.swift; sourceTree = "<group>"; };
+		0F344F2A2A7D33660013665C /* HearthstoneCardsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsCell.swift; sourceTree = "<group>"; };
+		0F344F2C2A7D337C0013665C /* HearthstoneCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsViewController.swift; sourceTree = "<group>"; };
+		0F344F2E2A7D385D0013665C /* HearthstoneCardsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsWorker.swift; sourceTree = "<group>"; };
+		0F344F312A7D38C50013665C /* HearthstoneCardsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsService.swift; sourceTree = "<group>"; };
+		0F344F342A7D3AF60013665C /* HearthstoneCardsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneCardsFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +127,7 @@
 		0F344EDC2A7D31E30013665C /* HearthstoneCards */ = {
 			isa = PBXGroup;
 			children = (
+				0F344F102A7D31F10013665C /* Features */,
 				0F344EDD2A7D31E30013665C /* AppDelegate.swift */,
 				0F344EDF2A7D31E30013665C /* SceneDelegate.swift */,
 				0F344EE12A7D31E30013665C /* ViewController.swift */,
@@ -128,6 +155,114 @@
 				0F344F032A7D31E60013665C /* HearthstoneCardsUITestsLaunchTests.swift */,
 			);
 			path = HearthstoneCardsUITests;
+			sourceTree = "<group>";
+		};
+		0F344F102A7D31F10013665C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F112A7D31F60013665C /* HearthstoneCards */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		0F344F112A7D31F60013665C /* HearthstoneCards */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F332A7D3AE80013665C /* Factory */,
+				0F344F302A7D38AF0013665C /* Service */,
+				0F344F182A7D32CD0013665C /* HearthstoneCardsConfigurator.swift */,
+				0F344F1B2A7D32F40013665C /* Interactor */,
+				0F344F1A2A7D32D80013665C /* Model */,
+				0F344F172A7D32BA0013665C /* Router */,
+				0F344F162A7D32B10013665C /* Presenter */,
+				0F344F142A7D32A30013665C /* Controller */,
+				0F344F132A7D329D0013665C /* View */,
+				0F344F122A7D32830013665C /* Worker */,
+			);
+			path = HearthstoneCards;
+			sourceTree = "<group>";
+		};
+		0F344F122A7D32830013665C /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F2E2A7D385D0013665C /* HearthstoneCardsWorker.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		0F344F132A7D329D0013665C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F152A7D32AA0013665C /* Cell */,
+				0F344F242A7D33300013665C /* HearthstoneCardsView.swift */,
+				0F344F262A7D33410013665C /* HearthstoneCardsLoadingView.swift */,
+				0F344F282A7D334B0013665C /* HearthstoneCardsErrorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F344F142A7D32A30013665C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F2C2A7D337C0013665C /* HearthstoneCardsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0F344F152A7D32AA0013665C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F2A2A7D33660013665C /* HearthstoneCardsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0F344F162A7D32B10013665C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F222A7D33230013665C /* HearthstoneCardsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0F344F172A7D32BA0013665C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F202A7D331C0013665C /* HearthstoneCardsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0F344F1A2A7D32D80013665C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F1E2A7D33150013665C /* HearthstoneCardsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F344F1B2A7D32F40013665C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F1C2A7D330C0013665C /* HearthstoneCardsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0F344F302A7D38AF0013665C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F312A7D38C50013665C /* HearthstoneCardsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0F344F332A7D3AE80013665C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				0F344F342A7D3AF60013665C /* HearthstoneCardsFactory.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +396,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F344F252A7D33300013665C /* HearthstoneCardsView.swift in Sources */,
 				0F344EE22A7D31E30013665C /* ViewController.swift in Sources */,
 				0F344EDE2A7D31E30013665C /* AppDelegate.swift in Sources */,
+				0F344F352A7D3AF60013665C /* HearthstoneCardsFactory.swift in Sources */,
+				0F344F2F2A7D385D0013665C /* HearthstoneCardsWorker.swift in Sources */,
+				0F344F212A7D331C0013665C /* HearthstoneCardsRouter.swift in Sources */,
+				0F344F272A7D33410013665C /* HearthstoneCardsLoadingView.swift in Sources */,
+				0F344F292A7D334B0013665C /* HearthstoneCardsErrorView.swift in Sources */,
+				0F344F2B2A7D33660013665C /* HearthstoneCardsCell.swift in Sources */,
+				0F344F1D2A7D330C0013665C /* HearthstoneCardsInteractor.swift in Sources */,
+				0F344F2D2A7D337C0013665C /* HearthstoneCardsViewController.swift in Sources */,
+				0F344F1F2A7D33150013665C /* HearthstoneCardsModel.swift in Sources */,
+				0F344F322A7D38C50013665C /* HearthstoneCardsService.swift in Sources */,
+				0F344F192A7D32CD0013665C /* HearthstoneCardsConfigurator.swift in Sources */,
 				0F344EE02A7D31E30013665C /* SceneDelegate.swift in Sources */,
+				0F344F232A7D33230013665C /* HearthstoneCardsPresenter.swift in Sources */,
 				0F344EE82A7D31E30013665C /* HearthstoneCards.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
