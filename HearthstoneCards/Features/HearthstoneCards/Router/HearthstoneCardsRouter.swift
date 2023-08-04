@@ -23,7 +23,7 @@ final class HearthstoneCardsRouter {
 
 extension HearthstoneCardsRouter: HearthstoneCardsRouterLogic {
     func showCardDetail(card: CardsResponse) {
-        let vc = UIViewController()
+        let vc = HearthstoneCardDertailViewController(card: card)
         self.source?.present(vc, animated: true)
     }
 }

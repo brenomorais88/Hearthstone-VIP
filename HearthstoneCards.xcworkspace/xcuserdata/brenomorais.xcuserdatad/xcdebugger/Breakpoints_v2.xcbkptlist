@@ -16,7 +16,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
             endingLineNumber = "39"
-            landmarkName = "loadCards(params:callback:)"
+            landmarkName = "loadCards(callback:)"
             landmarkType = "7">
             <Locations>
                <Location
@@ -49,6 +49,21 @@
                   endingLineNumber = "39"
                   offsetFromSymbolStart = "949">
                </Location>
+               <Location
+                  uuid = "181C994F-AFD4-4825-855B-92E9D09A0F7F - 8905bbae4a1017e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in HearthstoneCards.HearthstoneCardsService.loadCards(callback: (Swift.Bool, Swift.Optional&lt;Swift.Array&lt;HearthstoneCards.CardsResponse&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "HearthstoneCards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brenomorais/Documents/projetos/HearthstoneCards/HearthstoneCards/Features/HearthstoneCards/Service/HearthstoneCardsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "949">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -64,8 +79,40 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
             endingLineNumber = "43"
-            landmarkName = "loadCards(params:callback:)"
+            landmarkName = "loadCards(callback:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8D2A530-1B74-4E8A-B9F0-33D522A89819 - c76f23dac7bc7bf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in HearthstoneCards.HearthstoneCardsService.loadCards(params: HearthstoneCards.CardsParams, callback: (Swift.Bool, Swift.Optional&lt;Swift.Array&lt;HearthstoneCards.CardsResponse&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "HearthstoneCards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brenomorais/Documents/projetos/HearthstoneCards/HearthstoneCards/Features/HearthstoneCards/Service/HearthstoneCardsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "790">
+               </Location>
+               <Location
+                  uuid = "F8D2A530-1B74-4E8A-B9F0-33D522A89819 - 8905bbae4a101664"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in HearthstoneCards.HearthstoneCardsService.loadCards(callback: (Swift.Bool, Swift.Optional&lt;Swift.Array&lt;HearthstoneCards.CardsResponse&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "HearthstoneCards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brenomorais/Documents/projetos/HearthstoneCards/HearthstoneCards/Features/HearthstoneCards/Service/HearthstoneCardsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "790">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

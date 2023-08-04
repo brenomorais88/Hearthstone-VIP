@@ -17,6 +17,7 @@ class HearthstoneCardsCell: UICollectionViewCell {
     
     private let cardImage: UIImageView = {
         let view = UIImageView()
+        view.contentMode = .scaleAspectFit
         return view
     }()
     

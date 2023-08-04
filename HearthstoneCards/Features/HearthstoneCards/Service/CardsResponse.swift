@@ -10,37 +10,27 @@ import Foundation
 struct CardsResponse: Codable {
     let name: String?
     let img: String?
+    let flavor: String?
+    let desc: String?
+    let setPertence: String?
+    let tipo: String?
+    let faccao: String?
+    let raridade: String?
+    let ataque: Int?
+    let custo: Int?
+    let health: Int?
     
     private enum CodingKeys: String, CodingKey {
         case name = "name"
         case img = "img"
+        case flavor = "flavor"
+        case desc = "text"
+        case setPertence = "cardSet"
+        case tipo = "type"
+        case faccao = "faction"
+        case raridade = "rarity"
+        case ataque = "attack"
+        case custo = "cost"
+        case health = "health"
     }
-
-//    Descrição "flavor"
-//    Descrição curta
-//    Set pertencente
-//    Tipo
-//    Facção
-//    Raridade
-//    Ataque
-//    Custo
-//    Health
 }
-
-
-//      "cardId":"EX1_319",
-//      "dbfId":1090,
-//      "cardSet":"Classic",
-//      "type":"Minion",
-//      "faction":"Neutral",
-//      "rarity":"Common",
-//      "cost":1,
-//      "attack":3,
-//      "health":2,
-//      "text":"<b>Grito de Guerra:</b> Cause 3 de dano ao seu herói.",
-//      "flavor":"Diabretes curtem ficar no fogo. Eles só curtem.",
-//      "artist":"Alex Horley Orlandelli",
-//      "collectible":true,
-//      "race":"Demon",
-//      "playerClass":"Warlock",
-//      "locale":"ptBR",

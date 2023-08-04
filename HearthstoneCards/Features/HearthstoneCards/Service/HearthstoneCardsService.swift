@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 protocol HearthstoneCardsServiceProtocol {
-    func loadCards(params: CardsParams, callback: @escaping (Bool, [CardsResponse]?) -> ())
+    func loadCards(callback: @escaping (Bool, [CardsResponse]?) -> ())
 }
 
 class HearthstoneCardsService: HearthstoneCardsServiceProtocol {
@@ -21,7 +21,7 @@ class HearthstoneCardsService: HearthstoneCardsServiceProtocol {
         "X-RapidAPI-Host": "omgvamp-hearthstone-v1.p.rapidapi.com"
     ]
     
-    func loadCards(params: CardsParams, callback: @escaping (Bool, [CardsResponse]?) -> ()) {
+    func loadCards(callback: @escaping (Bool, [CardsResponse]?) -> ()) {
 //    https://omgvamp-hearthstone-v1.p.rapidapi.com
         AF.request("\(self.baseURL)/cards/sets/Classic?attack=3&collectible=1&locale=ptBR",
                    method: .get,
